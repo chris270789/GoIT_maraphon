@@ -1,0 +1,221 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f5f7fa;
+    padding: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 auto;
+}
+ h3{
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 16px;
+    }
+a{
+        color: #7a808a;
+        font-weight: 500;
+        font-style: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+.wrapper{
+    background: #fff;
+    display: flex;
+    box-shadow: 5px 9px 20px rgba(0,0,0,0.15);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.sidebar{
+    background: #1e2939;
+    width: 370px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.myphoto{
+    width: 370px;
+    height: 500px; 
+    position: relative;
+}
+.myphoto-img{
+    display: block;
+    width: 370px;
+    height: 500px;
+object-fit: cover; }
+.myphoto-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:rgba(0,0,0,0)
+}
+.myphoto-overlay:hover {
+  
+    background:rgba(0,0,0,0.5)
+  } 
+.about_me{
+    padding: 110px 90px;
+}
+.contacts{
+    margin: 60px 40px;
+}
+.contacts-title{
+    color:#fff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+
+.contacts_link_type{
+    color:#fff;
+    font-weight: 600;
+    font-style: 14px;
+    line-height: 24px; 
+    margin-right: 10px; 
+}
+.tech_skills{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 55px;
+
+}
+.tech_skills_title{
+    color:#fff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+.tech_skills_item{
+    font-style: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ff6b08;
+    margin-left: 15px;
+}
+.tech_skills_text{
+    color: #9499a1;
+}
+.soft_skills{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 55px;
+}
+.soft_skills_title
+{
+    color:#fff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 20px;+
+}
+.soft_skills_item
+{
+    font-style: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ff6b08;
+    margin-left: 15px;
+}
+.soft_skills_text{
+    color: #9499a1;
+}
+h2{
+font-size: 14px;
+}
+h4{
+font-size: 16px;
+}
+h1{
+    font-size: 45px;
+    line-height: 45px;
+}
+.about_me h1,h2,h3,h4, .profession-divide{
+    color: #000;
+}
+.about_me_title{
+    margin: 20px 0;
+}
+.about_me_text{
+    width: 75%;
+}
+.projects,.experience,.education{
+margin-top: 55px;
+}
+
+.projects_text{
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+.bracket::before{
+content: '[';
+font-weight: 700;
+color: #000;
+}
+.bracket::after{
+    content: ']';
+    font-weight: 700;
+    color: #000;
+    }
+ ol {
+        list-style-type: none; 
+        counter-reset: num;  
+       }
+.projects_item::before {
+        content: counter(num) '. '; /* Выводим число */
+        counter-increment: num; /* Увеличиваем значение счётчика */
+        color: #000;
+        font-weight: 700;
+        padding-right: 8px;
+       }
+.orange{
+    color: #ff6b08;
+}
+.date{
+    color: #bebebe;
+    font-size: 12px;
+    padding: 5px 0;
+    display: block;
+}
+.work_title{
+    margin-top: 20px;
+}
+.work_list{
+    margin-left: 15px;
+}
+.speciality{
+    display: block;
+   padding-top: 7px;
+}
+
+a:hover{
+    color:#ff6b08;
+    text-decoration: none;
+}
+
+
+/* Adaptive */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
