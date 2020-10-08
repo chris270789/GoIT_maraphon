@@ -205,12 +205,76 @@ a:hover{
 
 
 /* Adaptive */
+@media  screen and (max-width: 1000px){
+    .about_me {
+        padding: 80px 40px;
+    }
+    .about_me_text {
+        width: 93%;
+    }
+    .sidebar{
+        width: 45%;
+    }
+    .myphoto-img {
+        width: 100%;
+        height: 100%;
+    }
+    .myphoto {
+        width: 100%;
+        height: 20%;}
 
+}
+@media  screen and (max-width: 780px){
+.contacts,.tech_skills,.soft_skills {
+    margin: 50px 15px;
+}
+h1{
+    font-size:35px ;
+}
 
+}
 
+@media  screen and (max-width: 750px){
+.wrapper{
+    flex-direction:column;
+}
+.sidebar{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+}
+.about_me {
+    width: 100%;
+}
+.myphoto {
+    width: 58%; 
 
+}
+.sidebar_text{
+   padding-left: 5px;
+} 
+.contacts, .tech_skills, .soft_skills {
+    margin: 22px 15px;
+    margin-top: 0;
+}
+.contacts-title,.tech_skills_title,.tech_skills_title {
+    font-size: 19px;
+margin-bottom: 9px;}
+body{
+    font-size: 13px;
+    line-height: 18px;
+}
+.about_me {
+    padding: 30px 20px;
+}
+.about_me_title {
+    margin: 10px 0;
+}
+.projects, .experience, .education {
+    margin-top: 29px;
+}
 
-
+}
 
 
 
